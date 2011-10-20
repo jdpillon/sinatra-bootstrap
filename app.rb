@@ -17,6 +17,8 @@ require './lib/render_partial'
 
 # Controllers
 Dir[settings.root + "controllers/**/*.rb"].each{|f| require f}
+# Models
+Dir[settings.root + "modles/**/*.rb"].each{|f| require f}
 
 # Application routes
 get '/' do
