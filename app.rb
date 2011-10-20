@@ -16,8 +16,8 @@ enable :session
 require './lib/render_partial'
 
 # Models
-Dir[settings.root + "modles/**/*.rb"].each{|f| require f}
+Dir[settings.root + "/models/**/*.rb"].each{|f| require f}
 
 # Controllers
-Dir[settings.root + "controllers/**/*.rb"].each{|f| require f}
+Dir[settings.root + "/controllers/**/*.rb"].each{|f| require f}
 
